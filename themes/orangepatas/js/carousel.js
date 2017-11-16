@@ -123,7 +123,7 @@ $("#videopreview").ready(function() {
 			$("#container").css("top", "74px");
 			$("#videopreview").css("background", "black");
 			$("#videopreview").css("height", height);
-			$("#videopreview").css("width", width);	
+			$("#videopreview").css("width", width);
 			var closebutton = document.createElement("div");
 			closebutton.id = "close";
 			document.getElementById("videopreview").appendChild(closebutton);
@@ -140,7 +140,7 @@ $("#videopreview").ready(function() {
 			} else
 			{
 				var iframe = document.createElement("iframe");
-				iframe.src = "http://www.youtube.com/embed/" + videoid;
+				iframe.src = "//www.youtube.com/embed/" + videoid;
 				iframe.width = width;
 				iframe.height = height;
 				iframe.style.padding = 0;
@@ -186,7 +186,7 @@ function closePlayer()
 		$("#container").fadeIn(0);
 	}, 300);
 	playing = false;
-	
+
 	clearTimeout(id);
 	id = setTimeout(function() {
 		Animate(flag + 1);
