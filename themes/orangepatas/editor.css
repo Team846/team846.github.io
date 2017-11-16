@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  font-family: "Trebuchet MS",Helvetica,Arial;
+  line-height: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+a:link, a:visited, a:active, a:hover{color: #06C;; text-decoration:none; outline: none; background-color:transparent;}
+a:hover{color: #06C;; text-decoration:underline;}
+
+ul {
+	list-style: disc;
+	margin-left: 2em;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 2em;
+}
+
+b, strong {
+	font-family: "Trebuchet MS",Helvetica,Arial;
+	font-weight: bold;
+}
+
+u {
+	text-decoration: underline;
+}
+
+p {
+	margin: 0 0 15px 0;
+}
+
+h3 a.underline:hover {
+	text-decoration: underline;
+}
+
+p {
+	color: black !important;
+	font-size: 11pt;
+}
+
+h1 {
+	font-size: 24pt;
+	color: black;
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 20pt;
+	color: black;
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 16pt;
+	color: black;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 14pt;
+	color: black;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+h5 {
+	font-size: 12pt;
+	color: black;
+	padding: 0;
+}
+
+p, ul, ol {
+	font-size: 10pt;
+	color: black;
+	margin-bottom: 15px;
+}
+
+span, em, strong {
+	font-size: inherit;
+}
+
+a {
+	font-size: inherit;
+	color: #06C;
+}
+
+a * {
+	font-size: inherit;
+	color: #06C;
+}
+
+a strong {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FC3;
+	text-decoration: underline;
+}
+
+a:hover * {
+	color: #FC3;
+	text-decoration: underline;
+}
+
+a[href$='.zip'], a[href$='.rar'], a[href$='.gzip'] {
+	background:transparent url(img/zip.png) center left no-repeat;
+	background-size: 15px;
+	display:inline-block;
+	padding-left:20px;
+	line-height:18px;
+}
+
+a[href$='.pdf'] {
+	background:transparent url(img/pdf.png) center left no-repeat;
+	background-size: 15px;
+	display:inline-block;
+	padding-left:20px;
+	line-height:18px;
+}
+
+a[href$='.ppt'], a[href$='.pptx'], a[href$='.pps'] {
+	background:transparent url(img/ppt.png) center left no-repeat;
+	background-size: 15px;
+	display:inline-block;
+	padding-left:20px;
+	line-height:18px;
+}
+
+a[href$='.doc'], a[href$='.docx'] {
+	background:transparent url(img/word.jpg) center left no-repeat;
+	background-size: 15px;
+	display:inline-block;
+	padding-left:20px;
+	line-height:18px;
+}
+
+.captioned {
+	border: 1px solid #cecec8;
+	background-color: rgb(240, 240, 238);
+	text-align: center;
+	padding: 0;
+	padding-bottom: 5px;
+	display: inline-block;
+	border: 1px solid #cecec8;
+	border-radius: 2px;
+	box-shadow: 0px 0px 4px 0px #eee;
+	margin: 10px;
+}
+
+.captioned img {
+	margin: 5px;
+}
+
+form input, select, textarea {
+	margin-bottom: 10px;
+	border: 1px solid #cecec8;
+}
+
+form input:required{
+	padding: 2px 5px 2px 5px;
+	box-shadow: none;
+}
+
+input, select, textarea {
+	margin-bottom: 10px;
+	border: 1px solid #cecec8;
+}
+
+input, textarea {
+	padding: 2px 5px 2px 5px;
+}
+
+table {
+	border: 1px solid #cecec8;
+	background-color: #FFFFFF;
+}
+
+table a {
+	color: #413738;
+}
+
+table a.edit {
+	color: #FB0;
+}
+
+table a:hover {
+	text-decoration: underline;
+}
+
+td, th {
+	border: 1px solid #cecec8;
+	padding: 10px;
+}
+
+th {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+#column-id {
+	width: 20px;
+	text-align: center;
+}
+
+#column-title {
+	width: 300px;
+	font-weight: bold;
+}
+
+#column-category {
+	width: 100px;
+}
+
+#column-short {
+	width: 100px;
+}
+
+.event #column-date {
+	width: 100px;
+}
+
+.event #column-location {
+	width: 150px;
+}
+
+.event #column-info {
+	width: 200px;
+}
+
+.gallery #column-description {
+	width: 200px;
+}
+
+.galleryBox {
+	width: 210px;
+	height: 210px;
+}
+
+.galleryBox:hover {
+	border: 1px solid black;
+}
+
+#gold-sponsors, #silver-sponsors, #bronze-sponsors, #honorable-sponsors {
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 10px;
+}
+
+#gold-sponsors h3, #silver-sponsors h3, #bronze-sponsors h3, #honorable-sponsors h3 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#gold-sponsors ul, #silver-sponsors ul, #bronze-sponsors ul, #honorable-sponsors ul {
+	overflow: hidden;
+}
+
+#gold-sponsors li, #silver-sponsors li, #bronze-sponsors li, #honorable-sponsors li {
+	display: inline;
+	float: left;
+}
+
+#gold-sponsors {
+	background: #FFF087;
+	border: 1px solid #FFDF00;
+}
+
+#silver-sponsors {
+	background: #F1F1F1;
+	border: 1px solid #C0C0C0;
+}
+
+#bronze-sponsors {
+	background: #F0D9C2;
+	border: 1px solid #CD7F32;
+}
+
+img {
+	margin: 10px;
+}
+
+img.nostyle {
+	margin: 0;
+}
+
+.boxStyle {
+	border: 1px solid #cecec8;
+	border-radius: 2px;
+	box-shadow: 0px 0px 4px 0px #eee;
+	background: #ffffff;
+}
+
+.clearSpacer {
+	height: 0;
+	clear: both;
+}

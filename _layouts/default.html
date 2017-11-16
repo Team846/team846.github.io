@@ -1,0 +1,202 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    {% if page.title %}
+    <title>{{ page.title }} | Lynbrook Robotics</title>
+    {% else %}
+    <title>Lynbrook Robotics</title>
+    {% endif %}
+
+		<!-- Page styles -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.grey-yellow.min.css">
+    <link rel="stylesheet" href="/themes/orangepatas/styles.css">
+    <script src="/themes/orangepatas/js/jquery.min.js"></script>
+    <script src="/themes/orangepatas/js/swfobject.js"></script>
+    <script src="/themes/orangepatas/js/loader.js"></script>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header mdl-layout__header--waterfall">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title">
+						<a href="/"><img class="logo" src="/uploads/media/lrt.png" alt="Lynbrook Robotics"></a>
+					</span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+
+					<nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="/">HOME</a>
+						<a class="mdl-navigation__link" href="/about">ABOUT</a>
+						<a class="mdl-navigation__link" href="/first">FIRST</a>
+						<a class="mdl-navigation__link" href="/news">UPDATES</a>
+						<a class="mdl-navigation__link" href="/pictures">MEDIA</a>
+						<a class="mdl-navigation__link" href="/general-resources">RESOURCES</a>
+					</nav>
+				</div>
+			</header>
+			<main class="mdl-layout__content">
+				<div class="page-content">
+          <div class="PageAlign">
+  					{{content}}
+          </div>
+          <div class="Spacer"></div>
+        </div>
+        <div class="clearSpacer"></div>
+        <div class="footer">
+        
+          <div class="inner">
+            <!--[if IE]><style>.footer .block h4 { zoom: 1; display: inline; padding: 0 1px 1px 1px;}</style><![endif]-->
+            <div class="block block6" style="width:160px; line-height: 1.8em">
+              <h4 style="border-bottom: 2px solid #69696B">
+                <a href="/cp">
+                  <strong>Members Area</strong>
+                </a>
+              </h4>
+              <br>
+              <strong>
+                <a href="/login" style="font-size: 10pt">Login</a>
+                <br>
+                <a href="/register" style="font-size: 10pt">Register</a>
+                <br>
+                <a href="http://redmine.lynbrookrobotics.com/" style="font-size: 10pt">Redmine</a>
+                <br>
+                <a href="/contact-lists" style="font-size: 10pt">Contact Lists</a>
+              </strong>
+        
+            </div>
+        
+            <div class="block block4">
+        
+              <h4>
+                <a href="/about">About</a>
+              </h4>
+              <br>
+              <a href="/about">About Us</a>
+              <br>
+              <a href="/robots">Robots</a>
+              <br>
+              <a href="/history">History</a>
+              <br>
+              <a href="/sponsors">Sponsors</a>
+              <br>
+              <a href="/outreach">Outreach</a>
+            </div>
+        
+            <div class="block block5">
+              <h4>
+                <a href="/first">
+                  <em>FIRST</em>
+                </a>
+              </h4>
+              <br>
+              <a href="/first">About
+                <em>FIRST</em>
+              </a>
+              <br>
+              <a href="/games">Games</a>
+              <br>
+              <a href="/first-resources">Resources</a>
+            </div>
+        
+        
+            <div class="block block1">
+              <h4>
+                <a href="/news">Updates</a>
+              </h4>
+              <br>
+              <a href="/news">News</a>
+              <br>
+              <a href="/calendar">Calendar</a>
+              <br>
+              <a href="/meeting-minutes">Meeting Minutes</a>
+              <br>
+              <a href="/build-season-logs">Build Season Logs</a>
+            </div>
+        
+            <div class="block block2">
+              <h4>
+                <a href="/pictures">Media</a>
+              </h4>
+              <br>
+              <a href="/pictures">Pictures</a>
+              <br>
+              <a href="/videos">Videos</a>
+              <br>
+              <a href="/newsletters">Newsletters</a>
+              <br>
+              <a href="/website">Website</a>
+              <br>
+              <a href="/artwork">Artwork</a>
+            </div>
+        
+            <div class="block block3">
+              <h4>
+                <a href="/general-resources">Resources</a>
+              </h4>
+              <br>
+              <a href="/general-resources">Team Manual</a>
+              <br>
+              <a href="/helpful-links">Links</a>
+              <br>
+              <a href="/helpful-documents">Documents</a>
+              <br>
+              <a href="/training">Training</a>
+              <br>
+              <a href="/tutorials">Tutorials</a>
+            </div>
+        
+            <div class="contact">
+              <div class="email">
+                <a href="mailto:info@lynbrookrobotics.com">info@lynbrookrobotics.com</a>
+                <br> (408) 343-1183
+              </div>
+              <div class="social">
+                <a target="_blank" href="http://www.facebook.com/team846">
+                  <img src="/themes/orangepatas/img/icon_fb.png"
+                    alt="Facebook" class="HoverBtn">
+                </a>
+                <a target="_blank" href="http://twitter.com/team846">
+                  <img src="/themes/orangepatas/img/icon_twitter.png"
+                    alt="Twitter" class="HoverBtn">
+                </a>
+                <a target="_blank" href="https://plus.google.com/103096644020727513025">
+                  <img src="/themes/orangepatas/img/icon_g+.png"
+                    alt="Google+" class="HoverBtn">
+                </a>
+                <a target="_blank" href="http://www.youtube.com/user/lynbrookrobotics">
+                  <img src="/themes/orangepatas/img/icon_youtube.png"
+                    alt="Youtube" class="HoverBtn">
+                </a>
+              </div>
+              <div class="awards">
+                <a href="/website">
+                  <img src="/uploads/media/08Excellence.jpg" alt="2008 Website Excellence Award">
+                  <img src="/uploads/media/09Excellence.gif" alt="2009 Website Excellence Award">
+                  <img src="/uploads/media/12Excellence.jpg" alt="2012 Website Excellence Award">
+                </a>
+              </div>
+        
+            </div>
+        
+          </div>
+        
+        
+          <div id="oLightboxDimmer"></div>
+          <div id="oLightboxFrame"></div>
+        
+        </div>
+			</main>
+		</div>
+
+		<!-- <script src="https://code.getmdl.io/1.0.6/material.min.js"></script> -->
+	</body>
+</html>

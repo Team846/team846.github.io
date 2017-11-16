@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="pageStyle">
+    <h1>
+        <a href="{{ page.permalink }}">{{ page.group }}</a>
+    </h1>
+    <div class="pageContent boxStyle">
+        <div class="nav">
+            <ul>
+                {% assign filteredPages = site.pages | where_exp:"tabpage", "tabpage.group == page.group" | where_exp:"tabpage", "tabpage.index" | sort: 'index' %}
+                {% for tabpage in filteredPages %}
+                    {% if tabpage.title == page.title %}
+                    <li class="Selected">
+                    {% else %}
+                    <li>
+                    {% endif %}
+                        <a href="{{ tabpage.permalink }}">{{ tabpage.title | upcase }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <h2>{{ page.title }}</h2>
+        <div id="sidebar">
+            {% assign sideBar = site.pages | where_exp:"tabpage", "tabpage.title == page.title" | sort: 'sidebarIndex' %}
+            {% for sidepage in sideBar %}
+                <h3>
+                    <a href="{{ sidepage.permalink }}">
+                        {% if sidepage == page %}
+                            <strong style="color: black">{{ sidepage.subcategory }}</strong>
+                        {% else %}
+                            {{ sidepage.subcategory }}
+                        {% endif %}
+                        <img class="nostyle" src="/themes/orangepatas/img/arrow_right.png" alt="" height="15">
+                    </a>
+                </h3>
+            {% endfor %}
+        </div>
+        <div id="page-content" style="width: 750px; float: left; padding-left: 30px; border-left: 1px solid #cecec9">
+            {{ content }}
+        </div>
+        <div class="clearSpacer"></div>
+    </div>
+</div>

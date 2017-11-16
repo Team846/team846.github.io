@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="pageStyle">
+  <h1><a href="{{ page.permalink }}">{{ page.group }}</a></h1>
+    <div class="pageContent boxStyle">
+        <div class="nav">
+            <ul>
+                {% assign filteredPages = site.pages | where_exp:"tabpage", "tabpage.group == page.group" | where_exp:"tabpage", "tabpage.index" | sort: 'index' %}
+                {% for tabpage in filteredPages %}
+                    {% if tabpage == page %}
+                    <li class="Selected">
+                    {% else %}
+                    <li>
+                    {% endif %}
+                        <a href="{{ tabpage.permalink }}">{{ tabpage.title | upcase }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="page-content">
+            {{ content }}
+        </div>
+        <div class="clearSpacer"></div>
+    </div>
+</div>
