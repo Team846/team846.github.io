@@ -9,9 +9,11 @@ layout: default
             <ul>
                 {% assign filteredPages = site.pages | where_exp:"tabpage", "tabpage.group == page.group" | where_exp:"tabpage", "tabpage.index" | sort: 'index' %}
                 {% for tabpage in filteredPages %}
-                    {% if tabpage == page %}
-                    <li class="Selected">
                     {% assign lastPage = filteredPages | last %}
+                    {% if tabpage == page and tabpage == lastPage %}
+                    <li class="Selected last">
+                    {% elsif tabpage == page %}
+                    <li class="Selected">
                     {% elsif tabpage == lastPage %}    
                     <li class="last">
                     {% else %}
