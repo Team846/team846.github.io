@@ -14,7 +14,7 @@ layout: default
                     {% assign lastPage = filteredPages | last %}
                     {% if tabpage == page and tabpage == lastPage %}
                     <li class="Selected last">
-                    {% elsif tabpage == page %}
+                    {% elsif tabpage.title == page.title %}
                     <li class="Selected">
                     {% elsif tabpage == lastPage %}    
                     <li class="last">
