@@ -1,0 +1,7 @@
+slew 400 cycles
+22'10"
+
+slew 193 cycles
+too far
+
+slew 34 cycles

@@ -1,0 +1,36 @@
+Redo aligner servo position - DONE
+High gear and low gear gains (forward + turn)
+Turn deadband
+Redo lift positions - 1.87, 5.02, 8.3
+							4.0	  7.52
+Redo arm positions - 360, 750 - DONE
+1) Arm
+	a) Setpoints - DONE
+	b) Holding up (vertical)
+	c) Keeping it down
+2) Practice field lift setup
+3) Drive tuning
+4) Auton 
+	a) Dead reckoning
+	b) Line sensing	
+	
+/ Test lift + read from driver station
+/ Make autonomous faster
+- Faster gripper speed
+- CAN deployer
+- Turn tuning
+- Minibot deployment
+	- Game timer
+/ Lift down position
+/ After lift moves down, do rest of the autonomous
+/ Low gear in autonomous
+/ Shifting
+/ Lift presets
+/ Rotating ringer
+/ Remove printing
+/ Fix turning (third gear)
+/ Keep arm up in autonomous
+/ Change starting mode of autonomous (2 places)
+/ Arm up tuning
+/ Aligner testing
+/ Remove trim

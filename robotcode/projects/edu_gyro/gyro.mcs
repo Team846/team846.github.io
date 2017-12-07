@@ -1,0 +1,135 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\2005 FRC\edu_gyro\adc.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File001]
+Location=C:\2005 FRC\edu_gyro\gyro.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File002]
+Location=C:\2005 FRC\edu_gyro\ifi_startup.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File003]
+Location=C:\2005 FRC\edu_gyro\ifi_utilities.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File004]
+Location=C:\2005 FRC\edu_gyro\main.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File005]
+Location=C:\2005 FRC\edu_gyro\printf_lib.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File006]
+Location=C:\2005 FRC\edu_gyro\user_routines.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File007]
+Location=C:\2005 FRC\edu_gyro\user_routines_fast.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+[File008]
+Location=gyro.cof
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map"
+[File009]
+Location=gyro.cod
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map"
+[File010]
+Location=gyro.hex
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map"
+[File011]
+Location=gyro.lst
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|adc.c|gyro.c|ifi_startup.c|ifi_utilities.c|main.c|printf_lib.c|user_routines.c|user_routines_fast.c||<obj>||<lib>|ifi_library.lib||<lkr>|18f8520user.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map"

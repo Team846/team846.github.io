@@ -1,0 +1,15 @@
+Lynbrook Robotics Code Conventions
+
+Variables, Functions, Constants, and Macros
+- Static variables (within file): sLiftState
+- Global variables:               gMotorSpeed
+- Function names:                 DoSomething()
+- Constants:                      A_CONSTANT_VALUE, EPSILON, PI
+- Macros:                         mDivideBy2
+
+File naming:
+- "System" files (libraries, non-changing files) begin with _
+- User files have no prefix, and words are separated with _
+
+Includes
+- #include "common.h" at the beginning of all source files

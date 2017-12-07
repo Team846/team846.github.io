@@ -1,0 +1,17 @@
+speed	pwm		pt blank	1ft		2ft		2.5ft		3ft
+10		1.0		rebounds	someOut	good
+9		1.0		bounced		fewOut	good
+8		.902	bounced		good	barely
+7		.785	GOOD =/		good
+6		.641	GOOD		short
+5		.500	GOOD
+4		.457	GOOD
+3		.264	*H2Ofall
+2		.150	stuck
+1		.035	stuck
+0		0		stuck
+
+H2Ofall:  3 0.264
+PtBlank:  7 0.785
+MedSpeed: 8 0.902
+MaxSpeed: 9 1.0

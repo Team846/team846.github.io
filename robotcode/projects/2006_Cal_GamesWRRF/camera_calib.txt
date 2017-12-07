@@ -1,0 +1,157 @@
+Jaya,
+
+here are the cals with all the register settings. We only need to set the registers whose default value has changed.
+
+If you need any help, please call me.
+
+-- 
+--------------------------------------------------------------
+Harish P. Hiriyannaiah, Ph.D   408-446-5242
+
+RGB MODE
+========
+RED min    25
+RED max    65
+GREEN min    50
+GREEN max    200
+BLUE min    40
+BLUE max    150
+
+
+noise filter setting (0 = no filter, 255 = max filter)    3
+
+
+RGB MODE CAMERA CONFIGURATION PARAMETERS
+========================================
+name    address (decimal)    default value (decimal)    value-to-write (decimal)
+Common Control I    41    0    128       
+Common Control B    19    1    32       
+Common Control A    18    36    8       
+AGC Gain Control    0    32    0       
+Blue Gain Control    1    128    128       
+Red Gain Control    2    128    128       
+Saturation Control    3    128    100       
+Brightness Control    6    128    1       
+Auto-Exposure-Control    16    127    5       
+Analog Sharpness Control    7    195    195        7
+White Balance Background Control - Blue Channel    12    32    32       
+White Balance Background Control - Red Channel    13    32    32       
+Clock Rate Control    17    0    0       
+Common Control C    20    4    4       
+Common Control D    21    1    1       
+Frame Drop    22    3    3       
+Horizontal Window Start    23    47    47       
+Horizontal Window End    24    207    207       
+Vertical Window Start    25    6    6       
+Vertical Window End    26    245    245       
+Pixel Shift    27    0    0       
+Common Control E    32    0    0       
+Y Channel Offset Adjustment    33    128    128       
+U Channel Offset Adjustment    34    128    128       
+Crystal Current Control    35    0    0       
+AEC Auto Exposure White Pixel Ratio    36    16    16       
+AEC Auto Exposure Black Pixel Ratio    37    138    138       
+Common Control F    38    162    162       
+Common Control G    39    226    226       
+Common Control H    40    226    226       
+Frame Rate Adjust 1    42    0    128       
+Frame Rate Adjust 2    43    0    32       
+Black Expanding    44    136    136       
+Common Control J    45    129    133       
+V Channel Offset Adjustment    46    128    128       
+Signal Process Control A    96    39    39       
+Signal Process Control B    97    130    130       
+RGB Gamma Control    98    19    19       
+Y Gamma Control    100    89    89       
+Signal Process Control C    101    66    66       
+AWB Process Control    102    85    85       
+Color Space Selection    103    26    26       
+Signal Process Control D    104    204    204       
+Analog Sharpness    105    114    114       
+Vertical Edge Enhancement Control    106    66    66       
+Even/Odd Noise Compensation Control    111    58    58       
+Common Control K    112    129    129       
+Common Control J    113    0    0       
+Horizontal Sync 1st Edge Shifting    114    20    20       
+Horizontal Sync 2nd Edge Shifting    115    84    84       
+Common Control M    116    32    32       
+Common Control N    117    130    130       
+Common Control O    118    0    0       
+Field Average Level Storage    124    0    0
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+YCrCb MODE
+==========
+
+
+RED min    40
+RED max    110
+GREEN min    90
+GREEN max    200
+BLUE min    90
+BLUE max    145
+noise filter setting (0 = no filter, 255 = max filter)    4
+
+YCrCb MODE CAMERA CONFIGURATION PARAMETERS
+===========================================
+name    address (decimal)    default value (decimal)    value-to-write (decimal)
+Common Control I    41    0    128       
+Common Control B    19    1    32       
+Common Control A    18    36    0       
+AGC Gain Control    0    32    0       
+Blue Gain Control    1    128    128       
+Red Gain Control    2    128    128       
+Saturation Control    3    128    100       
+Brightness Control    6    128    1       
+Auto-Exposure-Control    16    127    10       
+Analog Sharpness Control    7    195    195       
+White Balance Background Control - Blue Channel    12    32    32       
+White Balance Background Control - Red Channel    13    32    32       
+Clock Rate Control    17    0    0       
+Common Control C    20    4    4       
+Common Control D    21    1    1       
+Frame Drop    22    3    3       
+Horizontal Window Start    23    47    47       
+Horizontal Window End    24    207    207       
+Vertical Window Start    25    6    6       
+Vertical Window End    26    245    245       
+Pixel Shift    27    0    0       
+Common Control E    32    0    0       
+Y Channel Offset Adjustment    33    128    128       
+U Channel Offset Adjustment    34    128    128       
+Crystal Current Control    35    0    0        23
+AEC Auto Exposure White Pixel Ratio    36    16    16       
+AEC Auto Exposure Black Pixel Ratio    37    138    138       
+Common Control F    38    162    162       
+Common Control G    39    226    226       
+Common Control H    40    226    226       
+Frame Rate Adjust 1    42    0    128       
+Frame Rate Adjust 2    43    0    32       
+Black Expanding    44    136    136       
+Common Control J    45    129    133       
+V Channel Offset Adjustment    46    128    128       
+Signal Process Control A    96    39    39       
+Signal Process Control B    97    130    130       
+RGB Gamma Control    98    19    19       
+Y Gamma Control    100    89    89       
+Signal Process Control C    101    66    66       
+AWB Process Control    102    85    85       
+Color Space Selection    103    26    26       
+Signal Process Control D    104    204    204       
+Analog Sharpness    105    114    114       
+Vertical Edge Enhancement Control    106    66    66       
+Even/Odd Noise Compensation Control    111    58    58       
+Common Control K    112    129    129       
+Common Control J    113    0    0       
+Horizontal Sync 1st Edge Shifting    114    20    20       
+Horizontal Sync 2nd Edge Shifting    115    84    84       
+Common Control M    116    32    32       
+Common Control N    117    130    130       
+Common Control O    118    0    0       
+Field Average Level Storage    124    0    0       
+       
+

@@ -1,0 +1,64 @@
+p	print on off
+pa general
+pb ball launcher wheels
+pc inputs;wheel counts
+pd drive wheel encoder
+ps stats
+
+Drive
+1	Tank
+2	Tank w/ z^2 turn reduction
+3	x-y drive
+4	x-y drive w/ 1/2 turn reduction
+5	x-y drive w/ z^2 turn reduction
+6	x-y drive w/ z^2 turn reduction & extra turn at speed
+
+100 Servo Drive
+200 Raw Drive
+
+printing
+p - disable/enable all printing
+c - camera data
+pa
+pb
+pc
+pd 
+ps - statistics
+
+t - changes pan-offset control to camera tilt (SERVICE MODE)
+
+#define mReverseRobot		p1_sw_aux2
+
+
+Reverse Robot:  p1_sw_aux2
+
+
+increase deadband on joysticks
+
+to do.txt
+
+
+limit turning rate
+search in autonomous
+change inputs on change drive system (change with meta down & usermode)
+make autonomous changeable (change when disabled & usermode)
+
+
+x We now have closed loop control of the launch motor
+x Need to make it read every 5 pulses to simulate 5:1 gearbox
+x add "RemoveDeadband()" from motor launch system
+x try adding jumpers to simulate multiple interrupts occurring simultaneously
+
+x Need to link to camera
+
+
+Drive motor control:
+Need to add encoders to motors and add drive software
+:Torque/current limit
+:closed loop control of turning and/or forward motion?
+:mapping of reverse in/out
+
+
+===>> pin assignments changed DIG i/o 1-6  <<===
+
+

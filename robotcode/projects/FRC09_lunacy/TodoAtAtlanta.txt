@@ -1,0 +1,24 @@
+Calibrate Jaguars: just use service mode
+Find Max speed of the robot
+Find the minimum PWM output for motion
+	Use service mode and +/- 1/128 buttons
+	N.B. Make sure TRACTION OVERRIDE button is pressed down
+	Set kMinDutyCycle in TorqueLimitedMotorOutput.cpp
+Find the maximum speed gain before slipping
+	Use the Operator Throttle
+	Make it a constant value
+
+N.B. Find maxaccel and maxbrake (see TODO) uncomment corresponding lines in TeleOpNewData
+	These lines must be commented out when running or they will overwrite constant values [dl]
+	
+We want to the read the saved file data in 
+	-MoonkeyBot's constructor
+	-TeleOpInit() //this is to change the file data via FTP and get updated w/o restarting the cRIO
+N.B. we don't want to read during AutoInit() because it would overwrite unsaved values (in case we exit Service
+	Mode improperly)
+Possible ways to write to the file:
+	-whenever we leave ServiceMode (occurs inside ServiceMode() and in DiabledNewData()). caveat: that people may
+	unintentionally overwrite file data when exiting ServiceMode.
+	-a new button pressed for a duration. Write success to the LCD. Operator must remember to press the button.
+	-use pen and paper, and transfer via FTP.
+	

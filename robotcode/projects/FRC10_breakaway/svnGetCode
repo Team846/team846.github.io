@@ -1,0 +1,13 @@
+#!/bin/bash
+#get latest verion of code from respository.
+#D.Giandomenico 3/11/2010
+svndir=~lynbrook/domains/svn.lynbrookrobotics.com
+
+if [ -e .svn ]; then
+	echo .svn already exists.  Use svn update.;
+else
+	echo checkout from repository...;
+	svn checkout file://$svndir/svn/frc10/LRT10 .
+	#hack -- move files out of subdirectory.
+        cp CANJaguar/* .
+fi

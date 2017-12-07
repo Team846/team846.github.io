@@ -1,0 +1,37 @@
+Reanabled Weak Pull up for Ultrasonic. {DG}
+
+TODO
+
+Hawaii -----
+
+- 2 gains for lift
+/ Fork pos for Removing ball
+/ Verify shifting
+- LCD load
+- Move lift in flat mode
+- Use Ultrasonic
+- Pause button in hybrid
+- Activate autonomous from user mode
+
+- HybridRun reports presses
+
+
+SVR -----
+
+/ Verify encoders' sides and directions
+/ Check 360deg tick count
+/ Check brakes
+	/ Brake test L/R buttons in disabled
+/ Check base settings
+/ Fork closed loop
+	/ Fork: keep fork out of interference
+	
+	
+Lift and fork presets
+/ Get value for Ball Removal
+- Prevent sudden reverse
+- [!] CLAMP position
+- [!] LIFT GAIN too high
+
+- Lift automation
+- Hybrid button log/display

@@ -1,0 +1,5 @@
+These are items for WPI to improve
+
+Private variables should be protected, so subclasses may access
+m_period  (sometime want the time!) [dg]
+analog_channel (need to monitor voltages especially when troubleshooting. [dg]

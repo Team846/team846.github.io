@@ -1,0 +1,16 @@
+**** LRTGearBox - 2/21/10, 2PM ****
+LRTGearBox.Left.highVal=0.3
+LRTGearBox.Left.lowVal=0.6
+LRTGearBox.Left.minSpeed=0
+LRTGearBox.Left.neutralVal=0.5
+LRTGearBox.Right.highVal=0.3
+LRTGearBox.Right.lowVal=0.65
+LRTGearBox.Right.minSpeed=0
+LRTGearBox.Right.neutralVal=0.5
+LRTGearBox.servoPulseTime=0.15
+LRTGearBox.servoRestTime=0.05
+
+**** LRTLift-Arm for Practice Robot - 2/28/10, 11:30PM ****
+LRTLift.armBasePosition=245
+LRTLift.armTolerance=5
+LRTLift.armVerticalOffset=355

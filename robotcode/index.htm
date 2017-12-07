@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style type="text/css">
+body { background-color : #FFFFEE; margin: 1em 3em 1em 3em }
+h1, h2, h3, h4, h5, h6 { margin:1em 0em 0em 0em; }
+p { margin:.3em 0em 0em 0em; }
+</style>
+<title>RobotCode</title>
+</head>
+
+<body>
+
+<h2>Lynbrook Robotics Team #846 Robot Code</h2><hr>
+<h4>Table of Contents</h4>
+<p><a href="#Introduction">Introduction</a><br>
+<a href="#Code Resources">Code Resources</a><br>
+<a href="#Software">Software</a></p>
+<h4><a name="Introduction">Introduction</a></h4>
+<p>Since 2004, Robots in the USFIRST Robotics Competitions use the 'C'
+programming language.&nbsp; 'C' is well suited to access a microcontroller at
+the hardware level, allows powerful coding, and generates compact code.&nbsp;
+Higher level languages, such as C++ or Java require more support code or lack
+the ability to program at the hardware level. Students who know C++ or Java
+should find the transition to 'C' straightforward.&nbsp; The greatest hurdle is
+creating a complex system to control motors and sensors in a short period of
+time.</p>
+<p>FIRST Robots use <a href="http://www.ifirobotics.com/">IFI Robotic's</a> FRC
+Control system, that&nbsp; is composed of an operator interface for the
+joysticks and&nbsp; the robot-side controller.&nbsp; The two halves are linked
+by a two-way data radio modem.&nbsp; The robot-side controller contains two
+<a href="http://www.microchip.com">M<small>ICROCHIP</small></a> PIC18F8722 microcontrollers, in
+the roles of a Master and User controller.&nbsp; From the programmer's
+viewpoint, only the User controller is visible and provides access to all of&nbsp;
+the needed robot functions.&nbsp; The IFI Robotic's
+<a href="http://www.ifirobotics.com/rc.shtml#Specifications">FRC Robot
+Controller</a> has 128KBytes of program memory, &gt;3KB of variable space, 1024 bytes of EEPROM, and operation speed of 10MIPs.</p>
+<p>The C compiler must be written specifically for the microcontroller used in
+the robot controller, which in this case, is the
+<a href="http://www.microchip.com">M<small>ICROCHIP</small></a> PIC18F8722.&nbsp;
+Since the robot controller's instruction set differs from the instruction set of
+the CPU in a desktop computer, common C compilers such as MS Visual C cannot be used.&nbsp;
+Our team uses M<small>ICROCHIP</small>'s free MPLab IDE in combination with
+
+M<small>ICROCHIP</small>'s commercial ($$) MPLab C18 compiler.&nbsp; MPLab software operates on a
+M.S. Windows based computer, and the compiled code is then uploaded through a
+serial cable to the robot controller.</p>
+<p>&nbsp;</p>
+<h4><a name="Code Resources">Code Resources</a></h4>
+<p>The primary code sources for FIRST Robot's are available through IFI
+Robotics' and Kevin Watson's (of NASA's Jet Propulsion Laboratory) websites.&nbsp;&nbsp;
+IFI Robotics provides default code for the current and prior years, while Kevin
+Watson's site contains the best collection of code for higher level control
+features, such as navigation, gyros, encoders, and camera's.</p>
+<p>Additionally, code from Lynbrook Robotics Team #846 is available both for
+download and convenient online web browsing.</p>
+<p>&nbsp;</p>
+<p><a href="robot_code.htm">Web Code Browser</a><br>
+&nbsp;</p>
+<p>Lynbrook Robotics Team #846<br>
+&nbsp;&nbsp;&nbsp; <a href="/robotcode/source_code/">Code Archive</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://lynbrookrobotics.com/robotcode/source_code/">
+http://lynbrookrobotics.com/robotcode/source_code/</a><br>
+&nbsp;</p>
+<p>Kevin Watson of NASA's Jet Propulsion Laboratory<br>
+&nbsp;&nbsp;&nbsp; <a href="http://kevin.org/frc/">Code for navigation, gyros,
+encoders, and camera's &amp; links to M<small>ICROCHIP<font size="3"> </font></small>
+documents</a>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>
+<a href="http://kevin.org/frc/">http://kevin.org/frc/</a></i><br>
+<br>
+IFI Robotics<br>
+&nbsp;&nbsp;&nbsp; <a href="http://www.ifirobotics.com/rc.shtml#Programming">
+default code</a>:&nbsp;&nbsp;&nbsp; <i>http://www.ifirobotics.com/rc.shtml#Programming</i><br>
+&nbsp;&nbsp;&nbsp; <a href="http://www.ifirobotics.com/first-legacy.shtml">code
+from prior years</a>:&nbsp; <i>
+<a href="http://www.ifirobotics.com/first-legacy.shtml">http://www.ifirobotics.com/first-legacy.shtml</a></i></p>
+<p>&nbsp;</p>
+<h4><a name="Software">Software</a></h4>
+<p>MPLab IDE - free download from
+<a href="http://www.microchip.com">M<small>ICROCHIP</small></a>.&nbsp; Search
+for download in <i>development tools</i> area.<br>
+The IDE (Integrated Development Environment) allows you to view and edit source
+code.&nbsp; However, to compile the code, you need the add-in &quot;MPLab C18&quot; 'C'
+compiler.<br>
+<br>
+MPLab C18 Compiler - commercial product provided at no cost to the team.&nbsp;
+Contact the team software group.</p>
+<p>IFI Loader - <a href="http://www.ifirobotics.com/rc.shtml#Programming">IFI
+Robotics</a>; MS Windows based software used to upload the compiled code from
+the PC to the IFI FRC Robot Controller.&nbsp; </p>
+<p>Dashboard - IFI Robotics; Optional MS Windows based utility software used to
+display data sent from the robot to the operator interface.&nbsp;
+<a href="http://www.ifirobotics.com/dashboard_viewer.shtml">
+http://www.ifirobotics.com/dashboard_viewer.shtml</a></p>
+<hr>
+<p><i>David Giandomenico&nbsp;&nbsp;&nbsp; Last revised:
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%B %d, %Y" startspan -->December 11, 2006<!--webbot bot="Timestamp" i-checksum="39470" endspan --></i></p>
+
+</body>
+
+</html>

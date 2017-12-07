@@ -1,0 +1,59 @@
+## Stimulus Control File: Do not edit!!
+## VERSION: 3.22.00.00
+## FORMAT:  v1.00.00
+## DEVICE:  PIC18F8722
+
+## SCLFILE
+
+
+## ASYNCH
+Pin
+RB2
+Pulse High
+2 cyc
+interrupt1
+-1
+--
+Pin
+RB3
+Pulse High
+1 cyc
+interrupt2
+-1
+--
+Pin
+RB4
+Pulse High
+100 cyc
+interrupt3
+-1
+--
+Pin
+RB5
+Pulse High
+1 cyc
+interrupt4
+-1
+--
+Pin
+RB6
+Set High
+
+interrupt5
+-1
+--
+Pin
+RB6
+Set Low
+
+
+-1
+--
+Pin
+AN5
+Set Low
+
+
+-1
+--
+&

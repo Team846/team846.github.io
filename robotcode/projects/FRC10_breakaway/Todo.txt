@@ -1,0 +1,56 @@
+KEY -------------------------------------------------
+- Need to implement
+~ In progress [add name]
+& Testing
+/ Completed
+-----------------------------------------------------
+
+/ Move roller enabling into the autonomous init, and allow the state to carry through 
+	into teleop. Roller should not be enabled in teleopinit
+/ Fix the operator buttons 7, 9, 11 to not work when config button is pressed
+/ Make sure that service mode enters and exits properly.
+/ Make the SavePreset functions save the config file.
+/ remove lift and arm tolerance
+/ Add buttons/functionality to retract/lower lift and arm
+/ Make a dump of the SVN repo
+/ Setup SVN Serve for a repo on the LAN.
+/ Remove base positions...
+/ Confirm polarity of the kicker relay
+/ Refine the lift and arm pot limits.
+/ Kill oscillation when overshoot arm
+/ Service mode preset testing doesn't work since we disable ApplyOutput..
+  {dcl: just eliminated those buttons. we don't need them}
+/ Low power test mode
+/ STOP BUTTON for lift/arm presets. And kicker.
+	/ Add functionality and buttons to abort lift operations
+	/ Add functionality and buttons to disable the kicker
+/ Lower lift threshold on arm lowering.
+/ Figure out the driving lag
+	/ does it have to do with printing??
+	/ To test: put bot on cart, deploy code, disconnect PC, drive for a while.
+/ Threading CAN output
+	ProxiedCANJaguar: public SpeedController
+		float Get();
+		void Set(float val);
+		float GetCurrent(); // return 0...
+	CANBusController
+		float m_setpoint[kMaxJaguarID+1];
+		float Get(int id);
+		void Set(int id, float val);
+		float GetCurrent(int id);
+/ Find encoder max speed = 3333 at San Diego
+
+Low Priority
+- Come up with a systematic method to configure all the presets.
+- Make sure encoders are even (clean wheels inside them)
+- SafeCANJaguar can't seem to recover after reconnected even though it sees voltage
+
+- Set ArmMiddle preset.
+- Tune roller speed.
+- Disable the roller for about 1/4 second while kicking.
+- Remove the mechanical deadband on the roller.
+
+TEST
+& Switch to DigitalOutputBrakes...
+& New button mappings
+ - arm up/down with operatorstick

@@ -1,0 +1,146 @@
+todo.txt
+
+ Created on: May 27, 2011
+     Author: David
+
+
+
+Drivetrain structure
+  
+class  Navigation
+{
+  Class PowerTrain;
+  	Class GearMotorAssembly left, right;
+}
+
+
+at the lower level
+  
+   LRT_CAN_Task (all commands queued into task, or regular tasks flagged.  Modes replaced with sequences).
+     WPILIb_CAN_Controller
+
+
+Comments to WPILIB
+
+*) Many classes contain 'private' members, rather than 'protected' members.
+This prevents us from deriving classes that extend WPILib classes because 
+we can't access key private data members.
+
+Examples: 
+ class eam_nnn_DriverStation: public DriverStation can't access m_controldata structures.
+ (is this true -- verify)
+ 
+Forces us to include modified WPILib code into our code.  This makes it hard to integrate
+new revisions of WPILib code.
+
+--
+*) Initialization of hardware is done in constructors, rather than initialization routines.
+1) Team programmers have difficulty tracking down cRio resource conflicts, since error codes
+can't be passed back in constructors.
+
+Example of user code that calls initization routines, rather than constructors:
+
+myRobotObject()
+ : encoderLeft()
+ , encoderRight
+{
+	int error = encoderLeft.Init( cRIO::Input::encoderLeft );
+	if (error) /* do stuff */
+	error = encoderLeft.Init( cRIO::Input::encoderRight );
+	if (error) /* do stuff */
+}
+
+Better still, the user can move the init code out of his constructor.  The key is to
+allow the error to be revealed in the user's code, rather than hidden in the WPILIB.
+
+The object structor of C++ encourages the cRio hardware, like encoders, analog inputs, servos, 
+to be assigned in constructors scattered through the code as various subsystems like drivetrains,
+robot arms are initialized. But this distributed approach makes errors hidden in constructors
+of WPILib objects hard to track down.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-Create a class to control tasks within the process,
+Objective: orderly shutdown, without tasks accessing deleted objects.
+
+-Create a class that opens and initializes all hardware ports on the cRio.
+  Design Requirements:
+    Can create dummy objects
+    Can create simulated objects
+    Checks resources for conflicts prior to opening.
+    
+-Interrupt based camera-linescanner task.
+
+-Kill signal simulator (to simulate shutdowns that occur when reloading code.)
+Reason:  When code is reloaded, old code is killed.  If tasks are left runnning, or resources
+still held, then the cRio may hang or operate unpredictably.
+
+-Servo Setup
+ Design Requirement: Standalone utility to setup servo positions
+
+-Jaguar base operation 
+ Design Requirement:
+   Standalong utility to operate Jaguars or groups of Jaguars
+   Work for Serial or Ethernet based CAN
+   
+   
+-Drivetrain: Reorg
+Design Requirements:
+  Drivetrain should include instances of ESC's (not be class extensions) to better allow ganging.
+  
+ 
+-CAN thread
+  Currently:
+    *) main loop releases Jag threads (Problem if jags deleted)
+    *) jag threads set and read values.  Set command is ambiguous depending on mode. 
+     Interface should include the mode, and change mode as required.
+    *) Jag Reader function: Requests and Reads currents & pot values from each jaguar.  
+  
+ 
+ Notes:
+ Current structure for jags
+ ProxiedCANJag : LRTCANJag
+ Would like commands like:
+   SetDutyCycle
+   SetPosition
+   SetCurrent
+   SetSpeed
+   BrakeDutyCycle - dither braking
+   BrakePercent - percent of max torque, by compensating for speed. 
+   Set() and base level commands should be blocked.
+   ReadCurrent()
+   ReadPosition(max, min)
+   
+ Each Jag needs a task.
+ 
+ GearMotor
+   1 or 2 MotorControllers
+   GearBox
+ 
+ Drivetrain
+   GearMotor (LET+RIGHT)
+   Brakes (not differential)
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 

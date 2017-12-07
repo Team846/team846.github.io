@@ -1,0 +1,214 @@
+======================
+| Key                |
+| - Unfinished task  |
+| ~ Task in progress |
+| / Finished task    |
+| A: Date added      |
+| C: Date completed  |
+======================
+
+To do at champs
+- Calibrate lift low position
+- Minibot deployment slow
+- Shifting issue
+/ Minibot deployment current
+/ Shift high in autonomous
+/ Minibot deployment brakes
+/ Arm moves roller slowly when trigger is toggled
+/ Refine automated ejection
+/ Arm middle preset doesn't work until button is pressed twice
+/ Drag down more
+/ Increase lift manual power
+/ Lift odd power issue
+/ Move arm to middle position automatically?
+/ Lift calibration (high value)
+/ Lift success value doesn't get updated if the pot position changes
+/ Fix arm movement downward
+/ Lift inches up after preset bottom (after fixed delay)
+/ Load + apply when file is changed
+/ Disable error printing
+/ Arm
+/ Remove caching
+/ Fix remnants of automated routine
+/ New deployment routine
+/ Toggle shift button
+/ Repeatably test autonomous
+/ Drive train
+/ Shifting
+/ Deal with double load config file issue
+/ Minibot
+/ Autonomous
+/ Save configuration file
+/ Check robot configuration
+/ Clean build
+/ LRT_ROBOT_2011 and other defines
+/ Minibot current
+/ Lift potentiometer values
+/ Address ActionData::GetInstance in TeleopShifter.h
+/ Define lift release
+
+To test
+/ Disable/Enable components
+/ Caching
+/ Arm suck in
+/ Minibot timer
+- Lift presets (high row, low row)
+- Check maintain lift position
+- Autonomous
+
+Tasks after shipping
+/ Autonomous routine
+	/ Release ringer
+/ Current sensing + 2CAN
+/ Synchronized for Update calls
+/ Pot values 0 to 1023
+/ Lift/arm pot configuration
+/ Difference in speed when spitting
+- Back off after squaring ringer up with lift? -KV
+- TODOs -KV
+- Periodic movement of roller inward
+
+What to test
+- Components
+/ Address Mr. G's concerns
+	/ Software deployment - LRT_ROBOT_2011 and enabling one component at a time
+/ Set roller gains to the default values in code
+/ Get apply/load config working
+/ Test difference in speed when spitting
+/ Look at current values
+	- Detect a ringer
+/ Roller automation
+	/ Test automated routine
+/ Switching to CANJaguar (figure out how to do virtual mode)
+/ Line sensing
+	/ Config values
+/ Assign buttons 
+
+Task list at 612
+- Service mode (keep in mind 4 escs on drive) -BA
+/ Lift DS soft switch for autonomous
+- End line detection
+- Split detection + choosing a side
+/ Fix extra cycle count printing (increased period) -KV
+
+Simulation
+/ Confirm button mappings of roller -BA
+/ Change lift preset based on high/low row -BA
+/ Lift aborted flag -KV
+/ Abort button -KV
+/ Disable control = what value to set? (setpoint array)
+/ Deadband issue -BA (5%)
+- Reset more action data values in disabled mode? -KV
+- Autonomous mode (without line sensing, stall detection) -KV
+	- Autonomous in teleop
+/ Turn off all speed controllers values getting sent (virtual mode)
+/ Lift prevent movement after certain pot value -KV
+- Components
+	/ Drive train -KV
+	- Position drive train -KV
+	/ Lift (lift pot value 0.2) -KV
+	/ Arm -KV
+	- Roller -KV
+	/ Minibot deployment -BA
+	/ Robot aligner -BA
+
+At competition
+- Capacitor
+- Bring line sensor data
+- Set lift pot config value to 0.2
+- Set deployer servo port numbers
+- Set deployer ESC ID
+- Set aligner servo values
+- Set lift pot value to 0.2
+- LED issue
+- Ensure lift preset values are set and defaulted in code
+- Verify autonomous settings, gains, including stall detection
+- Calibrate line sensing
+- Look at current values
+	- Detect a ringer
+- Set gains to 1.5
+- Fix bottom of robot
+- Test cleaned up code
+- Test auton, set things such as speeds and other parameters
+- Change deadband in config file to 5%
+
+List of changes
+- Virtual CANBusController
+	- LRTRobot11
+	- ProxiedCANJaguar
+- VirtualLRTEncoder
+	- DriveEncoders
+	- Brain
+	- Esc
+	- EncoderDataCollection
+- VirtualLRTServo
+	- Shifter
+- VirtualPot
+	- Arm
+	- Lift
+
+Tasks After Baltimore
+	- Re-enable active braking
+
+Tasks before shipping
+/ Calibrating shifter, lift, and arm
+/ Prepare control board for shipping
+- Configure SmartDashboard
+- Controls must be decided and mapped (how can I do something; use a key)
+
+Shifting
+/ When shift button is pressed, set shift timer to 2 seconds
+/ If shift timer hasn't expired or power is applied to drive train, set servo to value
+/ Else turn servo power off
+
+Lift
+/ Manual modes and protection against stalling (predicted time; shut off power)
+/ Presets and joystick 
+- Fault indicator on dashboard (light + description)
+/ Address power loss [press apply config button; no need to disable]
+
+Arm
+/ Manual modes and protection against stalling (predicted time; shut off power)
+/ Presets and up/down buttons
+- Fault indicator on dashboard (light + description)
+
+Tasks to assign
+/ Control board
+/ Make smaller encoder wire
+
+Tasks stil left to do (priority)
+/ Shifter							[A: 2/21/11]
+- Calibrate methods					[A: 2/10/11]
+	- Component takes in prefix		[A: 2/10/11]
+- Roller							[A: 2/11/11]
+/ Button mapings for ThurstMaster	[A: 2/15/11]
+- SmartDashboard configuration		[A: 2/7/11 ]
+	- Log everything  				[A: 2/11/11]
+- Add partner jaguar wrappers		[A: 2/18/11]
+
+Periodic tasks
+- Take backup of LRTConfig11.txt	[A: 2/11/11, C: 2/18/11]
+
+Finished tasks
+/ Servo shifter assumes that values are exact 	[A: 2/7/11,  C: 2/7/11 ]
+/ Update LRTEncoder class (add duplicate) 	  	[A: 2/7/11,  C: 2/11/11]
+/ Closed loop control on the jaguars 			[A: 2/2/11,  C: 2/7/11 ]
+/ Apply/load config buttons 					[A: 2/7/11,  C: 2/7/11 ]
+/ CLPositionControl 							[A: 2/11/11, C: 2/11/11]
+/ Default values of all action data 			[A: 2/11/11, C: 2/13/11]
+/ Add register configurable						[A: 2/10/11, C: 2/14/11]
+/ Fix kicker 									[A: 2/11/11, C: 2/14/11]
+/ Standardize CL nomenclature					[A: 2/12/11, C: 2/18/11]
+/ Fix profiler									[A: 2/15/11, C: 2/18/11]
+/ Print out build/run numbers       			[A: 2/18/11, C: 2/18/11]
+
+Before shipping
+/ Fuses OK?
+	- Arm/lift (Put in lift fuse!)
+/ Calibrate jaguars (not required for CAN bus)
+/ Encoder wire
+/ Lift testing
+/ Change lift power
+/ Signal Light
+
+

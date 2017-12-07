@@ -1,0 +1,51 @@
+p	print on off
+pa general
+pb 
+pc inputs;wheel counts
+pd drive wheel encoder
+ps stats
+
+Drive
+1	Tank
+2	Tank w/ z^2 turn reduction
+3	x-y drive
+4	x-y drive w/ 1/2 turn reduction
+5	x-y drive w/ z^2 turn reduction
+6	x-y drive w/ z^2 turn reduction & extra turn at speed
+
+100 Servo Drive
+200 Raw Drive
+
+printing
+p - disable/enable all printing
+c - camera data
+pa
+pb
+pc
+pd 
+ps - statistics
+
+t - changes pan-offset control to camera tilt (SERVICE MODE)
+
+#define mReverseRobot		p1_sw_aux2
+
+
+Reverse Robot:  p1_sw_aux2
+
+
+
+
+2007 USB CHICKLET Xbox 360 MAPPING
+
+A
+B
+X
+Y
+LT
+RT
+LB
+RB
+Back
+Start
+CenterX
+D-Pad Up

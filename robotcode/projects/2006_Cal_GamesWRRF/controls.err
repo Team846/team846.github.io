@@ -1,0 +1,3 @@
+Warning[2065] C:\LRT06\LRT6_49\controls.c 796 : static function 'sum_response2' never referenced
+Warning[2065] C:\LRT06\LRT6_49\controls.c 796 : static function 'sum_response' never referenced
+Warning[2065] C:\LRT06\LRT6_49\controls.c 796 : static function 'sum_response' never referenced

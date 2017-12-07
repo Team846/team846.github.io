@@ -1,0 +1,57 @@
+DONE--Make the kicker release button hard to reach, e.g. button 2
+--Make a button on the driver stick that cancels all operator controls while held down
+--Use the trigger to reverse the roller
+
+	driver stick
+trigger/1	while held stay in low gear must be released for at least 1/3 of a second to switch back
+2	release kicker
+3	mid power windup
+4	full power windup
+5	low power kick windup
+6	
+7	winch retract [need to hold]
+8	lift + flipper preset position extended
+9	while hold disable roller
+10	lift up
+11	while held have roller reverse direction
+12	lift down
+11+12	winch release
+
+driver stick when throttle is up, kicking disabled this state is only enabled during the finale
+while held stay in low gear must be released for at least 1/3 of a second to switch back
+
+
+
+
+
+winch retract [need to hold]
+flipper go to vertical position
+flipper go to home position
+winch lower robot
+flipper go to vertical position
+winch pull robot up
+
+
+operator stick
+
+
+3 lift goto home
+4 home preset for lift and flipper
+5 lift extend
+6 extended preset for lift and flipper
+7 winch retract [need to hold]
+8 winch down
+9 while hold disable roller
+10 move flipper to home
+11 while held have roller reverse direction
+12 while hold extend flipper. 
+
+
+
+
+
+
+
+
+
+

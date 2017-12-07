@@ -1,0 +1,16 @@
+--style=allman
+-N  # indent namespaces
+-L  # indent labels
+-c  # convert tabs to spaces
+-w  # indent multi-line preprocessor directives
+-M4 # indent continuation lines with 4 spaces
+-p  # insert space padding around operators
+-U  # remove padding around parentheses (outside)
+# -D  # insert space padding around parentheses (inside)
+-k3 # pointer/reference aligned with type
+-r  # recursive
+-z2 # linux line endings
+-n  # do not retain original file as .orig
+--formatted # Display only the files that have been formatted. Do not display files that are unchanged.
+#-v  # verbose
+

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Team Resource"
+AuthUserFile "/home/users/web/b569/ipw.lynbrook/.htpasswds/robotcode/source_code/MPLabIDE/passwd"
+require valid-user

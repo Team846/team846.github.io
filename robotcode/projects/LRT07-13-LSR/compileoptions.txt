@@ -1,0 +1,7 @@
+Compile options
+
+SAFE_TURN_TESTING : Left = -Right, disables forward motion
+ROBOT_2006/7
+SERIAL_LED
+CONTROLS_2007 : 2007 USB Chicklet configuration
+FAKE_DISABLE_SW	: use serial port and type D/d to Disable/enable, A/a to chg Autonomous/usermode

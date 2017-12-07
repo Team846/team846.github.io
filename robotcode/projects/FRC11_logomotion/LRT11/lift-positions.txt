@@ -1,0 +1,41 @@
+Mechanical positions
+Bottom reference point: 1.72
+Low column medium: 4.27
+High column medium: 4.97
+Low column high: 7.51
+High column high: 8.21
+
+Real low column middle: 4.14
+Real low column high: 7.33
+Real high column middle: 4.97
+Real high column high: 8.08
+
+New low column middle: 4.27
+New low column high: 7.61
+New high column middle: 4.90
+New high column high: 8.37
+
+New low column middle: 4.38
+New low column high: looks good
+New high column middle: 5.03
+New high column high: looks good
+
+New low column middle: looks good
+New low column high: looks good
+New high column middle: 4.95
+New high column high: looks good
+
+New low column middle: 4.57
+New low column high: 7.80
+New high column middle: 5.13
+New high column high: 8.48
+
+New low column middle: 4.41
+New low column high: 
+New high column middle: 
+New high column high: 8.54
+
+New low column middle: 4.49
+New low column high: 
+New high column middle: 
+New high column high: 8.64

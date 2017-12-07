@@ -1,0 +1,49 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.22.00.00
+## FORMAT:  v1.40.00
+## DEVICE:  PIC18F8722
+
+## PINREGACTIONS
+us
+No Repeat
+AN0
+RB5
+ADRESL
+--
+2000
+0
+1
+
+--
+3000
+
+0
+
+--
+5000
+
+
+64
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&

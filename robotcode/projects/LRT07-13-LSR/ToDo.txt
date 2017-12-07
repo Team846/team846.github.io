@@ -1,0 +1,34 @@
+Comments:
+	Servo Drive: gain is specified through a pot value that is not available during autonomous!
+
+Need to check encoders data
+
+Need to correct for gearbox changes
+
+
+
+RAMPS:
+NEED:
+WIRING (Relay <=> Solenoid)
+CABLES (Cylinder <=> Pins)
+Software working, solenoid working
+
+
+ToDo
+--------------------------
+Robot turning
+Camera Tracking
+Autonomous mode
+load ringer
+unload ringer
+deploy ramp
+reverse robot button
+
+autonomous options in eeprom or switch on robot.
+(use 3 pos switch oriented left-right)
+autonomous range?
+
+Completed
+------------------------
+Lift code 
+

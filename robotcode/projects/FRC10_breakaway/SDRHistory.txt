@@ -1,0 +1,71 @@
+**Thursday, March 4, 2010: Practice Rounds**
+
+-Practice Match 1
+	Missed this first practice match because robot wasn't ready yet
+	
+-Practice Match 2
+	Drive team: Chinmay[driver], Yuya[operator], Brandon[coach], ??
+==Round 1
+	The kicker was malfunctioning and kept dry firing (wouldn't stop after winding).
+	We had to press the E-Stop button and disable our robot for the remainder of the round.
+==Round 2
+	Experienced some lag on the drive train. Chinmay was on flat ground, going full forward on the joystick
+	and the robot does not respond.
+	
+Software team now checks the Profiler to check the control loop for lag. We discovered that ApplyOutputs 
+took a long time for the control loop. The only time-consuming process in ApplyOutputs is setting the
+setpoint to the CANJaguars. The software team found that setting the setpoint to the jaguars over the
+CAN bus took up to 9ms per jaguar. We implemented a CANBusController class that handled setting setpoints
+to the jaguars in a separate thread. This reduced the control loop cycles to an average of 2-3ms per cycle
+(as opposed to the 45ms cycles before the CANBusController was implemented).
+
+**Friday, March 5, 2010: Qualification Rounds**
+
+-Qualification Match 1
+	Drive team: Chinmay[driver], Yuya[operator], Brandon[coach], ??
+	Chinmay rates the driving a 5/10. The lag was not good, but it wasn't as bad as later in the day.
+	The lift was disconnected from the relay, so the lift didn't work in the finale.
+	
+-Qualification Match 2
+	Drive team: Chinmay[driver], Yuya[operator], Brandon[coach], ??
+	Chinmay says the driving was perfect. We scored 3 points. The driving was working perfectly. We
+	attempted to hang, but the hooks fell off the tower. The lift came up, leaned against the tower rails,
+	started go down, but then came up behind the bars, causing the hooks to fall off.
+	
+-Qualification Match 3
+	Drive team: Chinmay[driver], Brandon[operator], Yuya[coach], ??
+	The driving as not very good (Chinmay rates 3/10). Scored one point, but in general had a lot of
+	difficulty moving around the field. We successfully hung from the alliance tower, but we were 1 inch
+	below the tower platform. We didn't have enough time to get all the way up, but the lift, arm, and winch
+	all worked perfectly.
+	
+##Need to complete Friday
+
+**Saturday, March 6, 2010: Qualification and Elimination Rounds**
+
+We wanted to get a new game adapter, but there are no spare loaners to get. Abhinav reprogrammed
+our own gaming adapter. We've made the complete switch from CAN to PWM. Black Jaguars don't need any
+PWM calibration because apparently they've already been calibrated with the cRIO. We tested the PWMs
+and everything worked successfully.
+
+The kicker was having issues winding up again after a kick. David increased the delay time after pressing
+the kick button and resolved the issue quickly.
+
+-Qualification Match 8
+	Drive team: Chinmay[driver], Yuya[operator], Brandon[coach], Steve[human player]
+	The driving was very bad. We pretty much could only drive forward and backward; turning was almost
+	impossible. We were often stuck in the middle of the field for periods of time. At the end of the match,
+	we tried to climb the bump in an attempt to hang on the tower, but the drive train would often give out
+	after getting onto the bump. At the end of the match, Chinmay tried just holding down the joystick when
+	the robot wasn't responding, and it actually began to move after 3 seconds. Brandon talked to FMS 
+	after the match, and they didn't report any missed packets.
+	
+We thought of two more possible problems: the fuses and the gearboxes. The fuses were pretty much out of
+the question, because the robot was failing with reasonable loads. We checked the gearboxes and found that
+both sides of the robot were often falling out of gear, especially with some load! The gearbox shifting
+had only been tested with no load on the drive train. 
+
+The hardware team found that the left gearbox servos were damaged. They replaced it with a brand new servo.
+The software team switched back to the CAN for more reliable braking, now that we've found that the
+CAN bus is not the problem. The software team worked on making the gearbox pulsing more aggressive so
+that the drive train does not fall out of gear.

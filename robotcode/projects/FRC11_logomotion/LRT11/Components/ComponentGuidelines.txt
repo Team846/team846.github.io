@@ -1,0 +1,19 @@
+Header guidelines 
+	The header MUST have a header guard. 
+	The header may only include Component.h, Configurable.h, and standard library headers
+	For any other classes that require a definition use a class prototype
+	
+	The component must sublcass Component, and the inheritance type must be public.
+	It may also subclass Configurable, and if it does the inheritance type must be public. 
+	
+	The component must define the following:
+		A virtual constructor (a requirement of the polymorphic structure)
+		virtual void Output();
+			This method is run every appropriate loop by the LRTRobot class
+    	virtual string GetName();
+    		This is the name used in profiling
+    	If the component subclasses configurable if must also define virtual void Configure();
+		
+Implementation guidelines
+	For your class to actually be run you must add the component to the CreateComponents method in the Component.cpp file. 
+		This is where you would set if it should run in disabled mode and if a Dashboard DIO should disable it. 

@@ -1,0 +1,54 @@
+---
+layout: boxtab-sidebar
+title: FIRST Team Manual
+permalink: /general-resources/software/
+group: Resources
+subcategory: Software
+sidebarIndex: 3
+---
+
+<h1>Software</h1><h3 id="toc-title">Table of Contents</h3><ol id="toc"><li><a href="#Introduction" data-mce-href="#Introduction">Introduction</a></li>
+    <li><a href="#CodeResources" data-mce-href="#CodeResources">Code Resources</a></li>
+    <li><a href="#Software" data-mce-href="#Software">Software</a></li>
+    <li><a href="#CodeBrowser" data-mce-href="#CodeBrowser">Lynbrook Robotics Source Code</a></li>
+    </ol>
+    <h3 id="Introduction">Introduction</h3><div class="captioned" style="float: right" data-mce-style="float: right;"><img title="" src="/uploads/media/2013/01/cRIO.png" alt="cRIO" height="150" data-mce-src="uploads/media/2013/01/cRIO.png"><br><div>The FRC CompactRIO Controller</div>
+    </div><p>Since 2004, Robots in the <em>FIRST</em> Robotics Competitions have used the C programming language. C is well suited to access a microcontroller at the hardware level, allows powerful coding, and generates compact code.&nbsp; Higher level languages, such as C++ or Java require more support code or lack the ability to program at the hardware level. Students who know C++ or Java should find the transition to C straightforward.&nbsp; The greatest hurdle is creating a complex system to control motors and sensors in a short period of time. FIRST Robots use <a href="http://www.ifirobotics.com/" target="_blank" data-mce-href="http://www.ifirobotics.com/">IFI Robotics'</a> FRC Control system, that is composed of an operator interface for the joysticks and&nbsp; the robot-side controller.&nbsp; The two halves are linked by a two-way data radio modem. The robot-side controller contains two <a href="http://www.microchip.com/" data-mce-href="http://www.microchip.com/">Microchip</a> PIC18F8722 microcontrollers, in the roles of a Master and User controller.&nbsp; From the programmer's viewpoint, only the User controller is visible and provides access to all of&nbsp; the needed robot functions.&nbsp; The IFI Robotics' <a href="http://www.ifirobotics.com/rc.shtml#Specifications" data-mce-href="http://www.ifirobotics.com/rc.shtml#Specifications">FRC Robot Controller</a> has 128 Kilobytes of program memory, &gt;3KB of variable space, 1024 bytes of EEPROM, and operation speed of 10MIPs. The C compiler must be written specifically for the microcontroller used in the robot controller, which in this case, is the Microchip PIC18F8722.&nbsp; Since the robot controller's instruction set differs from the instruction set of the CPU in a desktop computer, common C compilers such as MS Visual C cannot be used.&nbsp; Our team uses Microchip's free MPLab IDE in combination with Microchip's commercial MPLab C18 compiler.&nbsp; MPLab software operates on a M.S. Windows based computer, and the compiled code is then uploaded through a serial cable to the robot controller.</p>
+    
+    <h3 id="CodeResources">Code Resources</h3><p>The primary code sources for FIRST Robot's are available through IFI Robotics' and Kevin Watson's (of NASA's Jet Propulsion Laboratory) websites. IFI Robotics provides default code for the current and prior years, while Kevin Watson's site contains the best collection of code for higher level control features, such as navigation, gyros, encoders, and camera's. Kevin Watson of NASA's Jet Propulsion Laboratory - <a href="http://kevin.org/frc/" data-mce-href="http://kevin.org/frc/">Code for navigation, gyros, encoders, and camera's &amp; links to Microchip documents</a>. IFI Robotics - <a href="http://www.ifirobotics.com/rc.shtml#Programming" data-mce-href="http://www.ifirobotics.com/rc.shtml#Programming">default code</a> and <a href="http://www.ifirobotics.com/first-legacy.shtml" target="_blank" data-mce-href="http://www.ifirobotics.com/first-legacy.shtml">code from prior years</a>. Additionally, code from Lynbrook Robotics is available below.</p>
+    
+    <h3 id="Software">Software</h3><p>MPLab IDE - free download from Microchip.&nbsp; Search for download in <em>development tools</em> area. The IDE (Integrated Development Environment) allows you to view and edit source code.&nbsp; However, to compile the code, you need the add-in "MPLab C18" 'C' compiler. MPLab C18 Compiler - commercial product provided at no cost to the team.&nbsp; Contact the team software group. IFI Loader - <a href="http://www.ifirobotics.com/rc.shtml#Programming" data-mce-href="http://www.ifirobotics.com/rc.shtml#Programming">IFI Robotics</a>; MS Windows based software used to upload the compiled code from the PC to the IFI FRC Robot Controller.&nbsp; Dashboard - IFI Robotics; Optional MS Windows based utility software used to display data sent from the robot to the operator interface.&nbsp;A dashboard viewer may be found <a href="http://www.ifirobotics.com/dashboard_viewer.shtml" data-mce-href="http://www.ifirobotics.com/dashboard_viewer.shtml">here</a>.</p>
+    
+    <h3 id="CodeBrowser">Lynbrook Robotics Source Code</h3><p><a href="/robotcode/source_code/" target="_blank" data-mce-href="robotcode/source_code/">Zipped code archives</a>&nbsp;– source code including MPLab project files. Download previous years' code.</p>
+    
+    <h4>FRC</h4><p><a href="/robotcode/source_code/2015/LRT15_RecycleRush.zip" data-mce-href="robotcode/source_code/2015/LRT15_RecyceRush.zip">2015 “Recycle Rush”</a> - Lynbrook Robotics java code for the 2015 FRC season.</p>
+    
+    <p><a href="/robotcode/source_code/2014/LRT14_AerialAssist.zip" data-mce-href="robotcode/source_code/2014/LRT14_AerialAssist.zip">2014 “Aerial Assist”</a> - Lynbrook Robotics C++ code for the 2014 FRC season.</p>
+    
+    <p><a href="/robotcode/source_code/2013/LRT13_UltimateAscent.zip" data-mce-href="robotcode/source_code/2013/LRT13_UltimateAscent.zip">2013 “Ultimate Ascent”</a> - Lynbrook Robotics C++ code for the 2013 FRC season.</p>
+    
+    <p><a href="/robotcode/source_code/2012/LRT12_ReboundRumble.zip" data-mce-href="robotcode/source_code/2012/LRT12_ReboundRumble.zip">2012 “Rebound Rumble”</a> - Lynbrook Robotics C++ code for the 2012 FRC season.</p>
+    
+    <p><a href="/robotcode/source_code/2011/LRT11_Logomotion.zip" data-mce-href="robotcode/source_code/2011/LRT11_Logomotion.zip">2011 “Logo Motion”</a> - Lynbrook Robotics C++ code for the 2011 FRC season.</p>
+    
+    <p><a href="/robotcode/source_code/2010/LRT10_Breakaway.zip" data-mce-href="robotcode/source_code/2010/LRT10_Breakaway.zip">2010 “Breakaway”</a> - Lynbrook Robotics C++ code for the 2010 San Diego Regional.&nbsp; Includes code for updating the Jaguar speed controllers on the CAN bus asynchronously for faster communications.</p>
+    
+    <p><a href="/robotcode/source_code/2009/LRT09_Lunacy.zip" data-mce-href="robotcode/source_code/2009/LRT09_Lunacy.zip">2009 “Lunacy”</a> - Lynbrook Robotics C++ code for the 2009 Atlanta Championships.</p>
+    
+    <p><a href="/robotcode/source_code/2008/LRT08_Overdrive.zip" data-mce-href="robotcode/source_code/2008/LRT08_Overdrive.zip">2008 “Overdrive"</a> – Lynbrook Robotics C code for the 2008 Hawaii Regional - Winner of the Rockwell Automation Innovation in Control Award.</p>
+    
+    <p><a href="/robotcode/source_code/2007/LRT07_RacknRoll.zip" data-mce-href="robotcode/source_code/2007/LRT07_RacknRoll.zip">2007 “Rack ‘N’ Roll”</a>– Lynbrook Robotics C code for the 2007 Lone Star Regional.</p>
+    
+    <p><a href="/robotcode/source_code/2006/LRT06_AimHigh.zip" data-mce-href="robotcode/source_code/2006/LRT06_AimHigh.zip">2006 “Aim High”</a> – Lynbrook Robotics C code for the 2006 Silicon Valley Regional.</p>
+    
+    <p><a href="/robotcode/source_code/2005/LRT05_TriplePlay.zip" data-mce-href="robotcode/source_code/2005/LRT05_TriplePlay.zip">2005 “Triple Play”</a> – Lynbrook Robotics C code for the 2005 FIRST Robotics Tetra Game (rev. w).</p>
+    
+    <p><a href="/robotcode/source_code/2004/LRT04_RaisingTheBar.zip" data-mce-href="robotcode/source_code/2004/LRT04_RaisingTheBar.zip">2004 “FIRST Frenzy: Raising the Bar”</a> – Lynbrook Robotics C code for the 2004 FIRST Robotics Game.</p>
+    
+    <p><a href="/robotcode/codebrowser.php?project=FrcCode2005v2.4" data-mce-href="robotcode/codebrowser.php?project=FrcCode2005v2.4">FrcCode2005v2.4</a>&nbsp;– 2005 default code</p>
+    
+    <h4>EDU</h4><p><a href="/robotcode/codebrowser.php?project=EduWRRFCode" data-mce-href="robotcode/codebrowser.php?project=EduWRRFCode">WRRF EDU Code</a> – Tutorial Code used at WRRF workshop <em>(11/12/2005 Auth: D.Giandomenico)</em></p>
+    
+    <h4>VEX</h4><p><a href="resourcefiles/vex-lesson-01.zip" data-mce-href="resourcefiles/vex-lesson-01.zip">VEX Programming Meetings - Lesson 01</a>&nbsp;— Starter code for the first VEX programming meeting</p>
+    
+    <p><a href="/robotcode/codebrowser.php?project=VexCode" data-mce-href="robotcode/codebrowser.php?project=VexCode">VexCode</a> – default code for the VEX robots <em>(NB: not factory code)</em></p>

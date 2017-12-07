@@ -1,0 +1,11 @@
+64.7 usec period = 15456 Hz
+Sending PWM value of -7/128 => -0.054688
+5.0 usec minimum pulse width
+
+About the same results on positive side.
+
+
+
+Victor
+8.63 ms period
+= 115.87 Hz

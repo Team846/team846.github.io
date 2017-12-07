@@ -1,0 +1,158 @@
+//trig.c
+#include "trig.h"
+
+
+static const unsigned char _sin128[129] = {
+0,  
+3,  
+6,  
+9,  
+13,  
+16,  
+19,  
+22,  
+25,  
+28,  
+31,  
+34,  
+37,  
+40,  
+43,  
+46,  
+49,  
+52,  
+55,  
+58,  
+60,  
+63,  
+66,  
+68,  
+71,  
+74,  
+76,  
+79,  
+81,  
+84,  
+86,  
+88,  
+91,  
+93,  
+95,  
+97,  
+99,  
+101,  
+103,  
+105,  
+106,  
+108,  
+110,  
+111,  
+113,  
+114,  
+116,  
+117,  
+118,  
+119,  
+121,  
+122,  
+122,  
+123,  
+124,  
+125,  
+126,  
+126,  
+127,  
+127,  
+127,  
+128,  
+128,  
+128,  
+128,  
+128,  
+128,  
+128,  
+127,  
+127,  
+127,  
+126,  
+126,  
+125,  
+124,  
+123,  
+122,  
+122,  
+121,  
+119,  
+118,  
+117,  
+116,  
+114,  
+113,  
+111,  
+110,  
+108,  
+106,  
+105,  
+103,  
+101,  
+99,  
+97,  
+95,  
+93,  
+91,  
+88,  
+86,  
+84,  
+81,  
+79,  
+76,  
+74,  
+71,  
+68,  
+66,  
+63,  
+60,  
+58,  
+55,  
+52,  
+49,  
+46,  
+43,  
+40,  
+37,  
+34,  
+31,  
+28,  
+25,  
+22,  
+19,  
+16,  
+13,  
+9,  
+6,  
+3,  
+0 };
+
+
+/*************
+	sine128()
+	returns sine on {-128, 128}
+	period:  256  (i.e. 256 = 2*pi radians)
+	arg range: casting integer arg to a char arg implicitly takes modulo 2*pi
+
+	
+**************/
+int sine128(char angleArg)
+{
+	//becauses of the symmetry of the sine function, we can  just  strip the high bit
+	//guaranteeing  the correct argument on {0,127}
+	overlay int sine = _sin128[(unsigned char) (angleArg & 0x7F)];
+	if (angleArg < 0) sine = -sine;
+	return sine;
+}
+
+
+int cosine128(char angleArg)
+{
+	return sine128(angleArg+64);
+}

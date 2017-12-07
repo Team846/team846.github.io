@@ -27,7 +27,11 @@ layout: default
             </ul>
         </div>
         <h2>{{ page.title }}</h2>
+        {% if page.title == "FIRST Team Manual" %}
+        <div id="sidebar" style="width: 169px">
+        {% else %}
         <div id="sidebar">
+        {% endif %}
             {% assign sideBar = site.pages | where_exp:"tabpage", "tabpage.title == page.title" | sort: 'sidebarIndex' %}
             {% for sidepage in sideBar %}
                 <h3>
@@ -42,7 +46,11 @@ layout: default
                 </h3>
             {% endfor %}
         </div>
+        {% if page.title == "FIRST Team Manual" %}
+        <div id="page-content" style="width: 714px; float: left; padding-left: 30px; border-left: 1px solid #cecec9">
+        {% else %}
         <div id="page-content" style="width: 750px; float: left; padding-left: 30px; border-left: 1px solid #cecec9">
+        {% endif %}
             {{ content }}
         </div>
         <div class="clearSpacer"></div>

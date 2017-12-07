@@ -1,0 +1,20 @@
+on 3/27/11
+
+with clamp meter not 2CAN
+
+@12.5v 
+sucking and spitting
+30%
+	top 
+		4 amps less fluctuation
+	bottom
+		sucking 6-7 amps
+		(ranges from 5.5 to 7.5 lots of flunctuations)
+100%
+	top 4.9 amps
+	bottom 8.5 amps suck + 8.0 spit 
+		
+3/27/11 12:35
+	Cannot suck triangle on thick parts. All bottom belts are slipping
+	top belt fell off, but no tie wraps 
+	belts are coming off on the bottom, but no tie wraps	

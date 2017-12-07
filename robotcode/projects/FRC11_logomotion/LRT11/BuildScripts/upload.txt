@@ -1,0 +1,5 @@
+open  10.8.46.2
+user FRC anypassword
+quote pasv
+
+

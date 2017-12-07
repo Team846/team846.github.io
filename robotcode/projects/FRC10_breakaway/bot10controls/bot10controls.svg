@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3143.8584"
+   height="1820.0842"
+   id="svg2841"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="bot10controls.svg"
+   inkscape:export-filename="D:\sandbox\windriver10\LRT10\bot10controls\bot10controls.png"
+   inkscape:export-xdpi="40.003643"
+   inkscape:export-ydpi="40.003643">
+  <defs
+     id="defs2843">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4456"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3759"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3756"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2849" />
+    <inkscape:perspective
+       id="perspective2859"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2923"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2952"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2972">
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect2974"
+         width="121.2177"
+         height="263.65018"
+         x="-2092.0259"
+         y="627.08801" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective4397"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4422"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-4"
+       style="overflow:visible">
+      <path
+         id="path3756-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-8"
+       style="overflow:visible">
+      <path
+         id="path3759-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective5046"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2972-1">
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect2974-7"
+         width="121.2177"
+         height="263.65018"
+         x="-2092.0259"
+         y="627.08801" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5158"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2972-1-3">
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect2974-7-3"
+         width="121.2177"
+         height="263.65018"
+         x="-2092.0259"
+         y="627.08801" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5420"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2972-1-0">
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect2974-7-0"
+         width="121.2177"
+         height="263.65018"
+         x="-2092.0259"
+         y="627.08801" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5550"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2972-1-5">
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect2974-7-4"
+         width="121.2177"
+         height="263.65018"
+         x="-2092.0259"
+         y="627.08801" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5670">
+      <rect
+         y="1421.6628"
+         x="-325.81448"
+         height="64.999252"
+         width="65.714195"
+         id="rect5672"
+         style="fill:#808080;stroke:none" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5726"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3034"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3067"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-9"
+       style="overflow:visible">
+      <path
+         id="path3756-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible">
+      <path
+         id="path3759-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective3101"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3136"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3168"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-1"
+       style="overflow:visible">
+      <path
+         id="path3756-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5"
+       style="overflow:visible">
+      <path
+         id="path3759-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1258.7029"
+     inkscape:cy="1386.6047"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata2846">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1187.243,215.56416)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.5999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       d="m -1743.5233,700.8291 0,143.44166"
+       id="path2979" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-1717.9182"
+       y="760.58203"
+       id="text2903-0"><tspan
+         sodipodi:role="line"
+         id="tspan2905-9"
+         x="-1717.9182"
+         y="760.58203">Forward/</tspan><tspan
+         sodipodi:role="line"
+         x="-1717.9182"
+         y="800.58203"
+         id="tspan5028">Backward</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-1820.5039"
+       y="658.55658"
+       id="text2903-0-5"><tspan
+         sodipodi:role="line"
+         id="tspan2905-9-5"
+         x="-1820.5039"
+         y="658.55658">Twist to turn</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-4);marker-end:url(#Arrow1Lend-8);font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       d="m -1746.8333,684.58313 c -24.6499,2.22601 -48.2236,14.64142 -64.0039,33.70859 -15.7804,19.06716 -23.569,44.54652 -21.1468,69.17795 2.4223,24.63144 15.0251,48.10549 34.2173,63.73344 19.1923,15.62795 44.7328,23.21345 69.3442,20.59508 22.5696,-2.40115 44.1334,-13.29892 59.453,-30.04597 15.3196,-16.74706 24.2582,-39.19389 24.6445,-61.8876 0.3862,-22.69371 -7.7834,-45.4317 -22.5242,-62.69037 -14.7409,-17.25866 -35.9214,-28.88391 -58.3962,-32.05169"
+       id="path4454"
+       inkscape:path-effect="#path-effect4456"
+       inkscape:original-d="m -1746.8333,684.58313 c 0,0 -12.0085,170.15653 18.4108,187.21506 49.481,27.74795 3.1771,-186.67563 3.1771,-186.67563"
+       sodipodi:nodetypes="csc" />
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       y="104.08319"
+       x="866.48895"
+       id="image5262"
+       height="450"
+       width="675" />
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       width="675"
+       height="450"
+       id="image2970"
+       x="-596.90521"
+       y="1131.6628" />
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       y="1119.541"
+       x="869.8363"
+       id="image5320"
+       height="450"
+       width="675" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1098.6248"
+       y="-183.73851"
+       id="text5264"><tspan
+         sodipodi:role="line"
+         id="tspan5266"
+         x="1098.6248"
+         y="-183.73851"
+         style="font-weight:bold">1. [Shift]</tspan></text>
+    <text
+       id="text2972"
+       y="839.8006"
+       x="-342.54593"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="839.8006"
+         x="-342.54593"
+         id="tspan2974"
+         sodipodi:role="line">1. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1100.1956"
+       y="827.67877"
+       id="text5322"><tspan
+         sodipodi:role="line"
+         id="tspan5324"
+         x="1100.1956"
+         y="827.67877"
+         style="font-weight:bold">1. [Shift]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1267.1578"
+       y="-84.718918"
+       id="text5268"><tspan
+         sodipodi:role="line"
+         id="tspan5270"
+         x="1267.1578"
+         y="-84.718918">6. Arm Middle+Lift Home</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1266.4436"
+       y="-34.00462"
+       id="text5272"><tspan
+         sodipodi:role="line"
+         id="tspan5274"
+         x="1266.4436"
+         y="-34.00462">4. Arm Home+Lift Home</tspan></text>
+    <text
+       id="text2976"
+       y="993.57507"
+       x="-196.95049"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="993.57507"
+         x="-196.95049"
+         id="tspan2978"
+         sodipodi:role="line">4. (unassigned)</tspan></text>
+    <text
+       id="text5276"
+       y="-84.682625"
+       x="1094.6821"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="-84.682625"
+         x="1094.6821"
+         id="tspan5278"
+         sodipodi:role="line">5. Lift Home</tspan></text>
+    <text
+       id="text5280"
+       y="238.78731"
+       x="634.78284"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         style="text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         y="238.78731"
+         x="634.78284"
+         sodipodi:role="line"
+         id="tspan5384">7. Arm Vertical / <tspan
+   style="font-weight:bold"
+   id="tspan5388">ApplyCfg</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-784.61133"
+       y="1264.3668"
+       id="text2980"><tspan
+         sodipodi:role="line"
+         id="tspan2982"
+         x="-784.61133"
+         y="1264.3668"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">7. Retract Winch</tspan></text>
+    <text
+       id="text5338"
+       y="1252.245"
+       x="682.13019"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-style:normal;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;font-weight:bold"
+         y="1252.245"
+         x="682.13019"
+         id="tspan5340"
+         sodipodi:role="line">7. Set Arm Middle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="667.31519"
+       y="238.8279"
+       id="text5284"><tspan
+         id="tspan5286"
+         sodipodi:role="line"
+         x="667.31519"
+         y="238.8279">8. Lift Extended</tspan></text>
+    <text
+       id="text2984"
+       y="1264.4075"
+       x="-752.07898"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-style:italic"
+         y="1264.4075"
+         x="-752.07898"
+         sodipodi:role="line"
+         id="tspan2986">8. Release Winch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="714.66254"
+       y="1252.2856"
+       id="text5342"><tspan
+         id="tspan5344"
+         sodipodi:role="line"
+         x="714.66254"
+         y="1252.2856"
+         style="font-style:normal">8. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1090.3964"
+       y="-30.825504"
+       id="text5288"><tspan
+         sodipodi:role="line"
+         id="tspan5290"
+         x="1090.3964"
+         y="-30.825504">3. Arm Vertical+Lift Extended</tspan></text>
+    <text
+       id="text2988"
+       y="996.75421"
+       x="-368.99771"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="996.75421"
+         x="-368.99771"
+         id="tspan2990"
+         sodipodi:role="line"
+         style="font-style:italic">3. Kicker Reverse</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="632.15784"
+       y="284.23694"
+       id="text5292"><tspan
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         sodipodi:role="line"
+         id="tspan5294"
+         x="651.40784"
+         y="284.23694">9. Arm Up <tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan5390"><tspan
+   style="font-weight:normal"
+   id="tspan5396">/ <tspan
+   style="font-weight:bold"
+   id="tspan5408">L</tspan></tspan>oadCfg </tspan></tspan></text>
+    <text
+       id="text2992"
+       y="1311.8164"
+       x="-787.23633"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="1311.8164"
+         x="-787.23633"
+         id="tspan2994"
+         sodipodi:role="line"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">9. Arm Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="679.50519"
+       y="1299.6946"
+       id="text5350"><tspan
+         style="font-style:normal;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;font-weight:bold"
+         sodipodi:role="line"
+         id="tspan5352"
+         x="679.50519"
+         y="1299.6946">9. Set Arm Vertical</tspan></text>
+    <text
+       id="text5296"
+       y="286.47113"
+       x="665.51831"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="286.47113"
+         x="665.51831"
+         id="tspan5298"
+         sodipodi:role="line"
+         style="font-style:italic">10. Lift Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-753.87585"
+       y="1312.0507"
+       id="text2996"><tspan
+         style="font-style:italic"
+         sodipodi:role="line"
+         id="tspan2998"
+         x="-753.87585"
+         y="1312.0507">10. Lift Up</tspan></text>
+    <text
+       id="text5354"
+       y="1299.9288"
+       x="712.86566"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="1299.9288"
+         x="712.86566"
+         id="tspan5356"
+         sodipodi:role="line"
+         style="font-style:normal;font-weight:bold">10. Set Lift Ext.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1102.8229"
+       y="36.867058"
+       id="text5300"><tspan
+         sodipodi:role="line"
+         id="tspan5302"
+         x="1102.8229"
+         y="36.867058"
+         style="font-weight:bold"><tspan
+           style="font-weight:normal"
+           id="tspan3156">2. Winch Retract</tspan></tspan></text>
+    <text
+       id="text3000"
+       y="1064.4467"
+       x="-378.5712"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="1064.4467"
+         x="-378.5712"
+         id="tspan3002"
+         sodipodi:role="line">2. Kicker Go</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1088.1703"
+       y="1052.3248"
+       id="text5358"><tspan
+         sodipodi:role="line"
+         id="tspan5360"
+         x="1088.1703"
+         y="1052.3248">2. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="632.15784"
+       y="332.56323"
+       id="text5304"><tspan
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         sodipodi:role="line"
+         id="tspan5306"
+         x="632.15784"
+         y="332.56323">11. Arm Down<tspan
+   style="font-style:normal"
+   id="tspan5402"> /<tspan
+   style="font-weight:bold"
+   id="tspan5404"> SaveCfg</tspan></tspan></tspan></text>
+    <text
+       id="text3004"
+       y="1360.1427"
+       x="-787.23633"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="1360.1427"
+         x="-787.23633"
+         id="tspan3006"
+         sodipodi:role="line"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">11. Arm Down</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="679.50519"
+       y="1348.0209"
+       id="text5362"><tspan
+         style="font-style:normal;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;font-weight:bold"
+         sodipodi:role="line"
+         id="tspan5364"
+         x="679.50519"
+         y="1348.0209">11. Set Arm Home</tspan></text>
+    <text
+       id="text5308"
+       y="333.78738"
+       x="665.51831"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="333.78738"
+         x="665.51831"
+         id="tspan5310"
+         sodipodi:role="line"
+         style="font-style:italic">12. Lift Down</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-753.87585"
+       y="1359.3669"
+       id="text3008"><tspan
+         style="font-style:italic"
+         sodipodi:role="line"
+         id="tspan3010"
+         x="-753.87585"
+         y="1359.3669">12. Lift Down</tspan></text>
+    <text
+       id="text5366"
+       y="1347.2451"
+       x="712.86566"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="1347.2451"
+         x="712.86566"
+         id="tspan5368"
+         sodipodi:role="line"
+         style="font-style:normal;font-weight:bold">12. Set Lift Home</tspan></text>
+    <g
+       transform="translate(3221.843,-804.01307)"
+       id="g5316">
+      <image
+         sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+         xlink:href="extreme.jpg"
+         width="675"
+         height="450"
+         id="image5318"
+         x="-2369.927"
+         y="637.45349"
+         clip-path="url(#clipPath2972-1)" />
+    </g>
+    <g
+       id="g3012"
+       transform="translate(1758.4489,223.56661)">
+      <image
+         sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+         xlink:href="extreme.jpg"
+         clip-path="url(#clipPath2972-1)"
+         y="637.45349"
+         x="-2369.927"
+         id="image3014"
+         height="450"
+         width="675" />
+    </g>
+    <g
+       transform="translate(3225.1904,211.44478)"
+       id="g5374">
+      <image
+         sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+         xlink:href="extreme.jpg"
+         width="675"
+         height="450"
+         id="image5376"
+         x="-2369.927"
+         y="637.45349"
+         clip-path="url(#clipPath2972-1)" />
+    </g>
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       width="675"
+       height="450"
+       id="image2865-1-4"
+       x="-608.12457"
+       y="100.04814" />
+    <text
+       id="text2875-1-1"
+       y="-191.81416"
+       x="-353.76532"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="-191.81416"
+         x="-353.76532"
+         id="tspan2877-5-1"
+         sodipodi:role="line"
+         style="font-style:italic;font-weight:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">1. Reverse Roller</tspan></text>
+    <text
+       id="text2879-2-3"
+       y="-74.468216"
+       x="-201.74141"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="-74.468216"
+         x="-201.74141"
+         id="tspan2881-7-8"
+         sodipodi:role="line">6. (unassigned)</tspan></text>
+    <text
+       id="text2883-6-7"
+       y="-23.753923"
+       x="-202.45564"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="-23.753923"
+         x="-202.45564"
+         id="tspan2885-1-4"
+         sodipodi:role="line">4. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-379.93134"
+       y="-74.717667"
+       id="text2891-4-2"><tspan
+         sodipodi:role="line"
+         id="tspan2893-2-7"
+         x="-379.93134"
+         y="-74.717667">5. ABORT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-812.12128"
+       y="233.60942"
+       id="text2903-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan2905-2-9"
+         x="-812.12128"
+         y="233.60942"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">7. Retract Winch</tspan></text>
+    <text
+       id="text2887-2-3"
+       y="233.93573"
+       x="-753.60132"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="233.93573"
+         x="-753.60132"
+         sodipodi:role="line"
+         id="tspan5406"
+         style="font-style:italic">8. Release Winch</tspan></text>
+    <text
+       id="text2895-6-9"
+       y="-26.860554"
+       x="-384.2171"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="-26.860554"
+         x="-384.2171"
+         id="tspan2897-8-8"
+         sodipodi:role="line"
+         style="font-style:italic">3. High Gear</tspan></text>
+    <text
+       id="text2907-5-6"
+       y="283.05902"
+       x="-806.59778"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="283.05902"
+         x="-806.59778"
+         id="tspan2909-7-5"
+         sodipodi:role="line"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">9. Disable Roller</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-766.8595"
+       y="285.29321"
+       id="text2867-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan2869-1-2"
+         x="-766.8595"
+         y="285.29321"
+         style="font-style:italic">10. Lift Up</tspan></text>
+    <text
+       id="text2899-8-8"
+       y="32.832012"
+       x="-371.79059"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="32.832012"
+         x="-371.79059"
+         id="tspan2901-9-6"
+         sodipodi:role="line">2. Release Kicker</tspan></text>
+    <text
+       id="text2911-2-0"
+       y="331.38528"
+       x="-805.31274"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="331.38528"
+         x="-805.31274"
+         id="tspan2913-7-2"
+         sodipodi:role="line"
+         style="font-style:italic;text-align:end;text-anchor:end;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">11. Brake</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-771.95227"
+       y="332.60947"
+       id="text2871-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan2873-5-8"
+         x="-771.95227"
+         y="332.60947"
+         style="font-style:italic">12. Brake</tspan></text>
+    <text
+       id="text5378"
+       y="725.94611"
+       x="-1134.3037"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="725.94611"
+         x="-1134.3037"
+         id="tspan5380"
+         sodipodi:role="line"
+         style="font-weight:bold">Service Mode: Both Throttles Up</tspan></text>
+    <g
+       id="g2976-1-0"
+       transform="translate(1747.2296,-808.04815)">
+      <image
+         sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+         xlink:href="extreme.jpg"
+         clip-path="url(#clipPath2972-1-3)"
+         y="637.45349"
+         x="-2369.927"
+         id="image2865-4-2-9"
+         height="450"
+         width="675" />
+    </g>
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       inkscape:transform-center-y="5.7142857"
+       inkscape:transform-center-x="-5"
+       transform="matrix(1,0,0,-1,-2.7142857,2903.6107)"
+       clip-path="url(#clipPath5670)"
+       y="1131.6628"
+       x="-596.90521"
+       id="image3016"
+       height="450"
+       width="675" />
+    <image
+       sodipodi:absref="D:\sandbox\windriver10\LRT10\bot10controls\extreme.jpg"
+       xlink:href="extreme.jpg"
+       width="675"
+       height="450"
+       id="image5661"
+       x="-596.90521"
+       y="1131.6628"
+       clip-path="url(#clipPath5670)"
+       transform="matrix(1,0,0,-1,1464.0272,2891.4889)"
+       inkscape:transform-center-x="-5"
+       inkscape:transform-center-y="5.7142857" />
+    <text
+       id="text3018"
+       y="947.61047"
+       x="-199.89912"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="947.61047"
+         x="-199.89912"
+         id="tspan3020"
+         sodipodi:role="line">6. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1266.8424"
+       y="935.48865"
+       id="text5268-7"><tspan
+         sodipodi:role="line"
+         id="tspan5270-7"
+         x="1266.8424"
+         y="935.48865">6. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="-372.37482"
+       y="949.64679"
+       id="text3022"><tspan
+         sodipodi:role="line"
+         id="tspan3024"
+         x="-353.12482"
+         y="949.64679">5. (unassigned)</tspan></text>
+    <text
+       id="text5276-3"
+       y="937.52496"
+       x="1094.3667"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="937.52496"
+         x="1094.3667"
+         id="tspan5278-3"
+         sodipodi:role="line">5. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1265.3621"
+       y="987.43158"
+       id="text5272-1"><tspan
+         sodipodi:role="line"
+         id="tspan5274-7"
+         x="1265.3621"
+         y="987.43158">4. (unassigned)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1089.3149"
+       y="990.61072"
+       id="text5288-4"><tspan
+         sodipodi:role="line"
+         id="tspan5290-0"
+         x="1089.3149"
+         y="990.61072">3. (unassigned)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.5999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       d="m 1639.1639,581.23555 0,143.44165"
+       id="path2979-2" />
+    <text
+       id="text3120"
+       y="570.84735"
+       x="1511.3606"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="570.84735"
+         x="1511.3606"
+         id="tspan3122"
+         sodipodi:role="line">LCD Scroll Up/<tspan
+   id="tspan3124"
+   style="font-weight:bold">Left</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1513.3809"
+       y="764.79663"
+       id="text5268-8"><tspan
+         sodipodi:role="line"
+         id="tspan5270-8"
+         x="1513.3809"
+         y="764.79663">LCD Scroll Down/<tspan
+   style="font-weight:bold"
+   id="tspan3126">Right</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1668.8755"
+       y="644.61108"
+       id="text5268-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan5270-8-5"
+         x="1668.8755"
+         y="644.61108">Operator</tspan><tspan
+         sodipodi:role="line"
+         x="1668.8755"
+         y="684.61108"
+         id="tspan3158">Hat Switch</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.5999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       d="m 1638.1458,211.6447 0,143.44165"
+       id="path2979-2-4" />
+    <text
+       id="text3120-4"
+       y="201.2565"
+       x="1570.3425"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       xml:space="preserve"><tspan
+         y="201.2565"
+         x="1570.3425"
+         id="tspan3122-4"
+         sodipodi:role="line"
+         style="font-style:italic">Arm Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1572.3628"
+       y="395.20581"
+       id="text5268-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan5270-8-2"
+         x="1572.3628"
+         y="395.20581"
+         style="font-style:italic">Arm Down</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1677.959"
+       y="297.24356"
+       id="text5268-8-7-3"><tspan
+         sodipodi:role="line"
+         x="1677.959"
+         y="297.24356"
+         id="tspan3158-7">Y-Axis</tspan></text>
+  </g>
+</svg>
